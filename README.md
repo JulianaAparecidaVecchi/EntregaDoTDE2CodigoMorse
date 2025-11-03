@@ -23,9 +23,23 @@ Este projeto implementa a árvore de código Morse em Java.
 
 - **JDK 20+** com **Preview Features** habilitadas.  
 
-No IntelliJ IDEA, por exemplo:
-1. Vá em **Run → Edit Configurations → Enable Preview Features**
-2. Habilite **--enable-preview**.
+## Criar uma Run Configuration
+
+Abra a classe MorseCodeTree.java.
+
+Clique com o botão direito dentro do código → Run 'MorseCodeTree.main()'.
+
+Se você quiser habilitar recursos de preview, faça assim:
+
+Vá em Run → Edit Configurations → MorseCodeTree.
+
+Em VM options, coloque:
+
+--enable-preview
+
+Salve e execute.
+
+A IDE vai cuidar de compilar e rodar a aplicação com o JDK correto. Você verá o menu interativo no console da IDE.
 
 ## Como usar
 
